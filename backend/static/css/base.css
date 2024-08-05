@@ -1,0 +1,74 @@
+/* Reset some default styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the container for the signup form */
+.signup-container {
+    background-color: #ffffff;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+/* Style the heading */
+.signup-container h2 {
+    margin-bottom: 20px;
+    color: #333333;
+}
+
+/* Style form groups */
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+/* Style the labels */
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555555;
+}
+
+/* Style the input fields */
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* Style the submit button */
+button {
+    background-color: #3498db;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+/* Change button color on hover */
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Style the message box */
+#message {
+    margin-top: 20px;
+    color: red;
+    font-weight: bold;
+}
